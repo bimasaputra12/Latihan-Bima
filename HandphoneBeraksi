@@ -1,0 +1,37 @@
+paket Handphone;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+Handphone kelas umum {
+    String hidupkan;
+    Lakukan panggilan panggilan;
+    String kirimSMS;
+    String matikan;
+    
+    public void Handphone () {
+        System.out.println ("Handphone hidup" + hidupkan);
+        System.out.println ("Kring, Kring, Kring" + lakukanPanggilan);
+        System.out.println ("Dung, Dung" + kirimSMS);
+        System.out.println ("Handphone mati" + matikan);
+    }
+    
+} ================================================= ====================================
+paket Handphone;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+kelas umum HandphoneBeraksi {
+    public static void main (String [] args) {
+      Handphone handphoneku = Handphone baru ();
+
+	 	handphoneku.hidupkan = "...";
+	  	handphoneku.lakukanPanggilan = "... panggilan dilakukan";
+	  	handphoneku.kirimSMS = "... SMS berhasil Terkirim";
+                handphoneku.matikan = "...";
+                handphoneku.Handphone ();               
+    }
+}
