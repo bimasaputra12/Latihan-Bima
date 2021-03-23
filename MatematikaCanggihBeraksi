@@ -1,0 +1,33 @@
+  
+paket interhance;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+kelas umum Matematikacanggih {
+    void modulus (int a, int b) {
+        System.out.println ("modulus:" + a + "%" + b + "=" + (a% b));
+    }
+    batal pertambahan (int a, int b) {
+        System.out.println ("pertambahan:" + a + "%" + b + "=" + (a% b));
+    }
+    void perkalian (int a, int b) {
+        System.out.println ("perkalian:" + a + "%" + b + "=" + (a% b));
+    }
+}
+paket interhance;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+kelas umum Matematikacanggihberaksi {
+    public static void main (String [] args) {
+        Matematikacanggih aksimatematika = Matematikacanggih baru ();
+        
+        aksimatematika.pertambahan (15,15);
+        aksimatematika.perkalian (5,8);
+        aksimatematika.modulus (10,200);
+    }
+}
