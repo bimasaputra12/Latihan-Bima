@@ -1,0 +1,79 @@
+paket overloading;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+public class Overloading {
+    int tambah = 0;
+    int kurang = 0;
+    int kali = 0;
+    int bagi = 0;
+    hasil ganda = 0;
+    hasil2 ganda = 0;
+    hasil3 ganda = 0;
+    hasil ganda4 = 0;
+    
+    // metode pertambahan 
+    batal pertambahan (int a, int b) {
+        tambah = a + b;
+        System.out.println ("pertambahan:" + a + "+" + b + "=" + tambah);
+    }
+    // metode pewarnaan 
+    batal (int a, int b) {
+        kurang = ab;
+        System.out.println ("berhadiah:" + a + "-" + b + "=" + kurang);
+    }
+    // metode perkalian
+    void perkalian (int a, int b) {
+        kali = a * b;
+        System.out.println ("perkalian:" + a + "x" + b + "=" + kali);
+    }
+        // metode pembagian
+    batal pembagian (int a, int b) {
+        bagi = a / b;
+        System.out.println ("Pembagian:" + a + "/" + b + "=" + bagi);
+    }
+      // membuat overloading dari method-method diatas
+
+    
+batal pertambahan (double a, double b, double c) {
+hasil = a + b + c;
+System.out.println ("Pertambahan =" + a + "+" + b + "+" + c + "=" + hasil);
+}
+
+tidak berlaku (double a, double b, double c) {
+hasil2 = a - b - c;
+System.out.println ("Pengurangan =" + a + "-" + b + "-" + c + "=" + hasil2);
+}
+
+void perkalian (double a, double b, double c) {
+hasil3 = a * b * c;
+System.out.println ("Perkalian =" + a + "*" + b + "*" + c + "=" + hasil3);
+}
+
+batal pembagian (double a, double b, double c) {
+hasil4 = a / b / c;
+System.out.println ("Pembagian =" + a + "/" + b + "/" + c + "=" + hasil4);
+}
+
+    
+    } 
+  paket overloading;
+
+/ **
+ *
+ * @ penulis Farhan ashari
+ * /
+kelas publik Overloadingberaksi {
+    public static void main (String [] args) {
+        // membuat objek
+        Overloading aksimatematika = new Overloading ();
+ 
+        // memanggil metode dan memberi nilai parameter
+        aksimatematika.pertambahan (12.5, 28.7, 14.2);
+        aksimatematika.pertambahan (23, 34);
+        aksimatematika.pertambahan (12, 28, 14);
+        
+    }
+}
